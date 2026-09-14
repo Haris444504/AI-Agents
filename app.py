@@ -12,7 +12,7 @@ app = FastAPI()
 # Allow Lovable frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],   # Later replace with your portfolio domain
+    allow_origins=["https://haris-saddique-portfolio.lovable.app"],   # Later replace with your portfolio domain
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -43,7 +43,7 @@ About Haris:
 - His Generative AI projects are this chatbot , n8n automations like resturant automation , booking automation.
 - He has certification in Gen AI from google , Agentic AI from tech 7 academy , data analsysis from google.
 - Campus ambassodar at devsinc and Founder of FlozenAI.
-- Contact details are : 03458787957 , email at : harissaddique959@gmail.com , linkedIn : kedin.com/in/haris-saddique-049189357/
+- Contact details are : 03458787957 , email at : harissaddique959@gmail.com , linkedIn : linkedin.com/in/haris-saddique-049189357/
 
 Rules:
 - Answer shortly.
